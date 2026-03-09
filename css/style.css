@@ -1,0 +1,121 @@
+body{
+    font-family: Arial;
+    margin:0;
+}
+
+/* Header */
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px;
+    background:#ff6f61; /* bakery-friendly orange/pink */
+}
+
+.logo{
+width:120px;
+}
+
+
+nav a{
+    color:white;
+    margin-left:20px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+/* Hero Section */
+
+.hero{
+    text-align:center;
+    padding:80px;
+    background:#ffe0e6; /* light pink */
+    color:#ff6f61;
+}
+
+/* About Section */
+
+.about{
+    text-align:center;
+    padding:40px;
+}
+
+/* Featured Cakes */
+
+.cake-gallery{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    padding:20px;
+}
+
+.cake-gallery img{
+    width:200px;
+    border-radius:10px;
+}
+
+/* Content (Menu & Contact) */
+
+.content{
+    padding:40px;
+    text-align:center;
+}
+
+.cake-item{
+    margin:20px 0;
+}
+
+/* Contact Form */
+
+form{
+    display:flex;
+    flex-direction:column;
+    width:300px;
+    margin:auto;
+}
+
+input, textarea{
+    margin:10px 0;
+    padding:10px;
+}
+
+button{
+    background:#ff6f61;
+    color:white;
+    border:none;
+    padding:10px;
+    cursor:pointer;
+}
+
+/* Footer */
+
+footer{
+    background:#ff6f61;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+
+/* Mobile Responsive */
+
+@media (max-width:768px){
+
+header{
+flex-direction:column;
+}
+
+nav{
+margin-top:10px;
+}
+
+.hero{
+padding:40px;
+}
+
+.cake-gallery{
+    flex-direction:column;
+    align-items:center;
+}
+}
